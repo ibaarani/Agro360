@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button_lay"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyer_button"
+            android:src="@drawable/button_buyer"
+            android:layout_margin="22sp"
+            android:onClick="openLogin"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_seller"
+            android:id="@+id/seller_button"
+            android:onClick="openLogin"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/login_lay"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/login_bg"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Agro360"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/login_linear_layout_1"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/login_bar"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/login_bar"/>
+
+
+                    <EditText
+                        android:layout_width="200sp"
+                        android:id="@+id/number_text"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:hint="Mobile Number"/>
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/login_bar"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/name_bar"/>
+
+
+                    <EditText
+                        android:layout_width="200sp"
+                        android:id="@+id/name_Text"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:hint="Username"/>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                android:id="@+id/login_linear_layout_2"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/login_bar"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/otp_bar"/>
+
+
+                    <EditText
+                        android:layout_width="200sp"
+                        android:id="@+id/otp_text"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:hint="Enter OTP"/>
+
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="90sp"
+                android:layout_height="100sp"
+                android:id="@+id/login_arrow"
+                android:src="@drawable/login_arrow"
+                android:onClick="loginCall"
+                android:layout_margin="20sp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

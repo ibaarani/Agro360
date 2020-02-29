@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "510472607328",
+    "firebase_url": "https://agro360-2443a.firebaseio.com",
+    "project_id": "agro360-2443a",
+    "storage_bucket": "agro360-2443a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510472607328:android:5f2f4efa9c62eb2a059505",
+        "android_client_info": {
+          "package_name": "com.threesixtystudios.agro360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510472607328-7v5qndhu63d4o37iq9iftb4updsbr418.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgZVgtHJ16I2PfM2zz1kUZGBFm9tNAFqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510472607328-7v5qndhu63d4o37iq9iftb4updsbr418.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
